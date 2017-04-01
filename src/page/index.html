@@ -5,21 +5,113 @@
 		<title>Hello world!</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
 		<meta name="format-detection" content="telephone=no"/>
-		<link rel="stylesheet" href="../css/global.css" type="text/css">
+		<link rel="stylesheet" type="text/css" href="../js/lib/swiper/swiper.min.css">
 		<link rel="stylesheet" href="../css/index.css" type="text/css">
 	</head>
-	<body class="bg">
+	<body>
+	<div id="main-content">
+		<nav class="main-nav">
+			<div class="main-nav-bar">
+				<div class="wraper swiper-container">
+					<div class="inner swiper-wrapper">
+						<ul class=" swiper-slide  ">
+							<li class="home">一级栏目</li>
+							<li class="active">二级栏目</li>
+							<li>二级栏目</li>
+							<li>二级栏目</li>
+							<li>二级栏目</li>
+							<li>二级栏目</li>
+							<li>二级栏目</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="sub-nav-bar  swiper-container">
+				<div class="inner  swiper-wrapper">
+					<ul class="swiper-slide">
+						<li>三级栏目</li>
+						<li class="active">三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+						<li>三级栏目</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-		<div class="box green">
-			<img src="../images/2.jpg">
+		<div class="content">
+			<div class="head-slide"></div>
+
+			<div class="content-list">
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc"><span class="date">3小时前</span> <span class="comments">100</span></div>
+						</div>
+					</div>
+				</section>
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc"><span class="date">3小时前</span> <span class="comments">100</span></div>
+						</div>
+					</div>
+				</section>
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc"><span class="date">3小时前</span> <span class="comments">100</span></div>
+						</div>
+					</div>
+				</section>
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc">3小时前 100</div>
+						</div>
+					</div>
+				</section>
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc">3小时前 100</div>
+						</div>
+					</div>
+				</section>
+				<section class="article row">
+					<div class="inner">
+						<div class="article-box col-4"></div>
+						<div class="article-info col-8">
+							<div class="article-title">阿斯蒂芬噶是打发斯蒂芬阿斯顿发斯蒂芬</div>
+							<div class="article-desc">3小时前 100</div>
+						</div>
+					</div>
+				</section>
+			</div>
 		</div>
-        <script src="../js/lib/require.js" data-main="../js/rs-config"></script>
-		<script>
-			require(['rs-config'], function(){
-				require(['jquery', 'app/page-main'], function($){
-					console.log($('body'));
-				});
-			})
-		</script>
+	</div>
+	<script src="../js/lib/require.js" data-main="../js/rs-config"></script>
+	<script>
+		require(['rs-config'], function(){
+			require(['app/page-main']);
+		});
+	</script>
 	</body>
 </html>
+

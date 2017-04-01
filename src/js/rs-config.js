@@ -1,19 +1,19 @@
 requirejs.config({
     baseUrl: '../js',
     paths: {
-        // jquery: 'lib/jquery-2.1.4.min',
-        // text: 'lib/text',
-        // moment: 'lib/moment.min',
+        jquery: 'lib/jquery-2.1.4.min',
+        text: 'lib/text',
+        moment: 'lib/moment.min',
         'app/static-config': 'rs-config'
     },
     shim: {
     	// 'comp/datetimepicker/jquery.datetimepicker': {
     	// 	deps: ['jquery']
     	// },
-     //    'lib/swiper/swiper.jquery.min': {
-     //        deps: ['jquery'],
-     //        exports: 'Swiper'
-     //    }
+        'lib/swiper/swiper.jquery.min': {
+            deps: ['jquery'],
+            exports: 'Swiper'
+        }
     },
     packages: [
     ]
@@ -30,5 +30,6 @@ window.staticConfig = {
 
 define('app/static-config', staticConfig);
 
-// require(['comp/widget-loader', 'app/widget-header']);
+require(['comp/widget-rem']);
+
 

@@ -1,7 +1,10 @@
-require(['comp/format/result', 'comp/math/plus'],function(result, plus){
-
-	var $ = require('jquery');
-	console.log('add', result(plus(1, 2)));
-
-	console.log(result($, 'warning'));
-})
+define(function(require){
+	// var Swiper = require('lib/swiper/swiper.jquery.min')
+	// var swiper = new Swiper('.swiper-container', {
+ //        // scrollbar: '.swiper-scrollbar',
+ //        // direction: 'vertical',
+ //        slidesPerView: 'auto',
+ //        mousewheelControl: true,
+ //        freeMode: true
+ //    });
+});
