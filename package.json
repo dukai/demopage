@@ -1,0 +1,48 @@
+{
+  "name": "demopage",
+  "title": "Demopage",
+  "description": "Frontend project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/dukai/demopage",
+  "author": {
+    "name": "dukai",
+    "email": "dukai86@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dukai/demopage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dukai/demopage/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/dukai/demopage/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": "4.4.5"
+  },
+  "devDependencies": {
+    "bluebird": "^3.3.5",
+    "express": "^4.13.4",
+    "express-velocity-engine": "git+https://github.com/dukai/express-velocity-engine.git",
+    "grunt": "^0.4.5",
+    "grunt-bust-requirejs-cache": "^0.3.2",
+    "grunt-cache-bust-alt": "^0.6.1",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.5.2",
+    "grunt-inline-text": "^0.1.2",
+    "grunt-light-sprite": "https://github.com/dukai/grunt-light-sprite.git",
+    "grunt-replace": "^0.10.2",
+    "grunt-source-map": "git+https://github.com/dukai/grunt-source-map.git",
+    "velocity": "^0.7.2"
+  },
+  "keywords": []
+}

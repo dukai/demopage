@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Hello world!</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+		<meta name="format-detection" content="telephone=no"/>
+		<link rel="stylesheet" href="../css/global.css" type="text/css">
+		<link rel="stylesheet" href="../css/index.css" type="text/css">
+	</head>
+	<body class="bg">
+
+		<div class="box green">
+			<img src="../images/2.jpg">
+		</div>
+        <script src="../js/lib/require.js" data-main="../js/rs-config"></script>
+		<script>
+			require(['rs-config'], function(){
+				require(['jquery', 'app/page-main'], function($){
+					console.log($('body'));
+				});
+			})
+		</script>
+	</body>
+</html>
