@@ -1,5 +1,4 @@
-define(function(require){
-	var $ = require('jquery');
+
 	var clientWidth = document.documentElement.clientWidth;
 	var fontSize;
 	if(clientWidth > 750){
@@ -8,5 +7,5 @@ define(function(require){
 		fontSize = 100 * (clientWidth / 750) + 'px';
 	}
 
-	$('html').css('fontSize', fontSize);
-});
+  document.documentElement.style.fontSize = fontSize;
+

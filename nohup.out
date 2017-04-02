@@ -1,0 +1,12 @@
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Express server listening on port 9090
+
+[4mRunning "watch" task[24m
+Waiting...
+[4mRunning "express:dev" (express) task[24m
+[36mStarting [39mbackground Express server
+Express server listening on port 9090
+
+[4mRunning "watch" task[24m
+Waiting...

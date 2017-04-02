@@ -774,7 +774,7 @@ body {
   overflow: hidden;
 }
 #main-content .main-nav .crumbs ul {
-  line-height: 2.6;
+  line-height: 1rem;
   border-bottom: 1px solid #eee;
 }
 #main-content .main-nav .crumbs ul li {
@@ -816,7 +816,7 @@ body {
   overflow: hidden;
 }
 #main-content .main-nav .main-nav-bar ul {
-  line-height: 2.6;
+  line-height: 1rem;
   white-space: nowrap;
   width: 100%;
   overflow: auto;
@@ -832,10 +832,17 @@ body {
   position: relative;
   font-size: .34rem;
 }
+#main-content .main-nav .main-nav-bar ul li a {
+  text-decoration: none;
+  color: #404040;
+}
 #main-content .main-nav .main-nav-bar ul li.home {
   color: #333;
   font-weight: bold;
   font-size: .36rem;
+}
+#main-content .main-nav .main-nav-bar ul li.home a {
+  color: #333;
 }
 #main-content .main-nav .main-nav-bar ul li.home:after {
   content: " ";
@@ -858,7 +865,10 @@ body {
 #main-content .main-nav .main-nav-bar ul li.active {
   font-weight: bold;
   color: #06c;
-  font-size: .36rem;
+  font-size: .34rem;
+}
+#main-content .main-nav .main-nav-bar ul li.active a {
+  color: #06c;
 }
 #main-content .main-nav .main-nav-bar ul li.active:after {
   content: " ";
@@ -1045,6 +1055,11 @@ body {
   font-size: .34rem;
   line-height: 1.2;
   margin-bottom: 0.2rem;
+}
+#main-content .content-list .article .article-info .article-title a {
+  text-decoration: none;
+  font-size: .34rem;
+  color: #404040;
 }
 #main-content .content-list .article .article-info .article-desc {
   color: #999;
