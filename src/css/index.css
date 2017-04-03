@@ -784,8 +784,6 @@ body {
   padding: 0 8px;
   position: relative;
   font-size: .34rem;
-  font-weight: bold;
-  font-size: .36rem;
 }
 #main-content .main-nav .crumbs ul li:after {
   content: " ";
@@ -925,6 +923,37 @@ body {
 }
 #main-content .main-nav .sub-nav-bar ul li.active {
   color: #333;
+}
+#main-content .content article.comment h1 a {
+  color: #404040;
+  text-decoration: none;
+}
+#main-content .content article.comment .post-comment {
+  text-align: right;
+}
+#main-content .content article.comment .post-comment textarea {
+  height: 54px;
+  padding: 0 2%;
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  font-size: 16px;
+  line-height: 30px;
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: #ededed;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+#main-content .content article.comment .post-comment .inputBtn {
+  height: 28px;
+  line-height: 24px;
+  width: 17%;
+  font-size: 14px;
+  color: #515151;
+  border: 1px solid #e5e5e5;
+  background: #eee;
+  border-radius: 2px;
 }
 #main-content .content article {
   padding: 0 .3rem .4rem;
